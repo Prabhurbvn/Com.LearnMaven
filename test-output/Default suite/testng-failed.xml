@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Basics.SoftAssrtExample">
+      <class name="Basics.Headless">
         <methods>
           <include name="setUp"/>
-          <include name="samp"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- Basics.SoftAssrtExample -->
+      </class> <!-- Basics.Headless -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
